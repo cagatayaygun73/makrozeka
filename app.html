@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Makro Zeka – Barkod Tarayıcı | Barcode Scanner</title>
+<meta name="description" content="Barkodu okut, içindekileri ve skoru anında öğren. Scan a barcode and instantly see ingredients, additives and a score.">
+<style>
+:root{--g:#2e7d4f;--dark:#14231a;--bg:#f4faf6}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,Helvetica,Arial,sans-serif;color:var(--dark);background:#fff;line-height:1.6}
+header{background:linear-gradient(135deg,#2e7d4f,#8bc34a);color:#fff;text-align:center;padding:64px 20px 56px}
+header h1{margin:0 0 8px;font-size:40px}
+header p{margin:0 auto;max-width:560px;font-size:18px;opacity:.95}
+.btn{display:inline-block;margin-top:24px;background:#fff;color:var(--g);padding:12px 28px;border-radius:999px;font-weight:700;text-decoration:none}
+.btn.off{opacity:.85}
+main{max-width:960px;margin:0 auto;padding:0 20px}
+section{padding:40px 0}
+h2{font-size:26px;margin:0 0 16px}
+.shots{display:flex;gap:16px;overflow-x:auto;padding:8px 0 16px;scroll-snap-type:x mandatory}
+.shots img{height:440px;border-radius:22px;box-shadow:0 6px 20px rgba(0,0,0,.18);scroll-snap-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--bg);border-radius:14px;padding:18px}
+.card h3{margin:0 0 6px;font-size:17px;color:var(--g)}
+.card p{margin:0;font-size:15px}
+.en{border-top:2px solid #e3ece6}
+footer{background:var(--bg);text-align:center;padding:28px 20px;font-size:14px}
+footer a{color:var(--g)}
+</style>
+</head>
+<body>
+<header>
+<h1>Makro Zeka</h1>
+<p>Barkodu okut; içindekileri, katkı maddelerini ve skoru saniyeler içinde gör.<br>Scan a barcode and see ingredients, additives and a score in seconds.</p>
+<a class="btn off" href="#">App Store'da yakında / Coming soon</a>
+</header>
+<main>
+<section>
+<div class="shots">
+<img src="ss1.jpg" alt="Makro Zeka ekran görüntüsü 1">
+<img src="ss2.jpg" alt="Makro Zeka ekran görüntüsü 2">
+<img src="ss3.jpg" alt="Makro Zeka ekran görüntüsü 3">
+<img src="ss4.jpg" alt="Makro Zeka ekran görüntüsü 4">
+<img src="ss5.jpg" alt="Makro Zeka ekran görüntüsü 5">
+</div>
+</section>
+
+<section>
+<h2>Neler yapabilirsin?</h2>
+<div class="grid">
+<div class="card"><h3>Barkod tara</h3><p>Gıda ve kozmetik ürünlerini kamerayla veya numarayı yazarak bul.</p></div>
+<div class="card"><h3>Nutri-Skor, NOVA, Eco-Score</h3><p>Beslenme kalitesini, işlenme düzeyini ve çevresel etkiyi gör.</p></div>
+<div class="card"><h3>Katkı maddeleri</h3><p>E kodlu maddelerin ne işe yaradığını ve dikkat edilecek noktaları öğren.</p></div>
+<div class="card"><h3>Sana özel yorumlar</h3><p>Hedefine (kilo verme, kas, kalp sağlığı, diyabet) ve kısıtlamalarına (vegan, glütensiz, laktozsuz) göre değerlendirme.</p></div>
+<div class="card"><h3>Alerjen uyarıları</h3><p>Fıstık, gluten, süt ve çapraz bulaşma uyarıları.</p></div>
+<div class="card"><h3>Menü tarayıcı</h3><p>Restoran menüsünün fotoğrafını çek, hedeflerine uygunluğunu gör.</p></div>
+<div class="card"><h3>Kozmetik analizi</h3><p>Cilt bakım ve kişisel bakım ürünlerinin içeriklerini incele.</p></div>
+<div class="card"><h3>Oyun modları</h3><p>Skor, şeker ve katkı maddesi tahmin oyunlarıyla eğlenerek öğren.</p></div>
+<div class="card"><h3>11 dil</h3><p>Türkçe, İngilizce, Almanca, İspanyolca, Arapça, Fransızca, İtalyanca, Portekizce, Rusça, Çince, Japonca.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Gizliliğin önceliğimiz</h2>
+<p>Makro Zeka'nın sunucusu yoktur. Profilin, geçmişin ve favorilerin yalnızca telefonunda saklanır. İnternete giden tek bilgi, ürünü bulmak için taradığın barkod numarasıdır. Reklam ve izleme yoktur. <a href="index.html">Gizlilik Politikası</a></p>
+<p><small>Ürün bilgileri, topluluk veritabanları Open Food Facts ve Open Beauty Facts'ten gelir (Open Database License). Makro Zeka tıbbi tavsiye vermez ve tıbbi cihaz değildir.</small></p>
+</section>
+
+<section class="en">
+<h2>What can you do?</h2>
+<p>Scan food and cosmetic barcodes and get Nutri-Score, NOVA and Eco-Score, additive explanations, allergen warnings and personal comments based on your goals and dietary restrictions. Includes a restaurant menu scanner, cosmetic ingredient analysis, guessing games and 11 languages.</p>
+<h2>Privacy first</h2>
+<p>Makro Zeka has no server. Your profile, history and favorites stay on your phone. Only the barcode number you scan is sent to look up the product. No ads, no tracking. <a href="index.html">Privacy Policy</a></p>
+<p><small>Product data: Open Food Facts and Open Beauty Facts (Open Database License). Not medical advice and not a medical device.</small></p>
+</section>
+</main>
+<footer>
+İletişim / Contact: <a href="mailto:cagatayaygun73@gmail.com">cagatayaygun73@gmail.com</a> · © 2026 Çağatay Aygün
+</footer>
+</body>
+</html>
